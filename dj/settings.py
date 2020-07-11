@@ -25,7 +25,7 @@ SECRET_KEY = '^#_!yr2)8rwn*qh*jh1^k@@w^6dqnus=u)x3-aws##alv73vcm'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', '0.0.0.0', os.getenv(HOST, 'localhost')]
 
 
 # Application definition
